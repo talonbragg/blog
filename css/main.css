@@ -69,3 +69,8 @@ ul {
   left:0%;
   position:fixed;
 }
+#msubheading:hover {
+  -webkit-transition-duration: 0.6s;
+  transition-duration:0.6s;
+  font-weight:bold;
+}
