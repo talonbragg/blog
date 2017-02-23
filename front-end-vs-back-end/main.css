@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+body {
+  background-color:#f5f5f5;
+  font-family:'Montserrat';
+  margin:60px;
+}
+.header {
+  padding-bottom: 300px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top:150px;
+  text-align: center;
+}
+.subheading {
+  font-family:'Raleway';
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color:#6B6B6B;
+/*   #2764c6 */
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 40px;
+}
+h5 {
+  font-size: 30px;
+}
+h6{
+  font-size: 20px;
+}
+p {
+  font-size:25px;
+  line-height:40px;
+  font-family:'Montserrat';
+}
+a {
+  text-decoration: none;
+  color: #0FAAB7;
+  transition: all .2s ease;
+}
+a:hover {
+  background: #0FAAB7;
+  color: #f5f5f5;
+}
+.content {
+  max-width: 650px;
+  margin-top: 7rem;
+  margin-bottom: 10rem;
+  padding:100px;
+}
+ul {
+  list-style-type: circle;
+  font-size:25px;
+}
