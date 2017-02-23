@@ -16,6 +16,11 @@ body {
 .subheading {
   font-family:'Raleway';
 }
+.subheading:hover {
+  -webkit-transition-duration: 0.6s;
+  transition-duration:0.6s;
+  font-weight:bold;
+}
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat';
   font-weight: bold;
@@ -63,4 +68,9 @@ a:hover {
 ul {
   list-style-type: circle;
   font-size:25px;
+}
+.logo {
+  top:0%;
+  left:0%;
+  position:fixed;
 }
